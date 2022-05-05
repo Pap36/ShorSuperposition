@@ -1,0 +1,347 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\Exponentiation\\Exponentiation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ExponentiationStep\\ExponentiationStep.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ExponentiationStep\\ExponentiationStep.csproj",
+        "projectName": "ExponentiationStep",
+        "projectPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ExponentiationStep\\ExponentiationStep.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ExponentiationStep\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularMult\\ModularMult.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularMult\\ModularMult.csproj"
+              },
+              "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularSquare\\ModularSquare.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularSquare\\ModularSquare.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Quantum.CSharpGeneration": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.EntryPointDriver": {
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Numerics": {
+              "target": "Package",
+              "version": "[0.21.2112180703, )"
+            },
+            "Microsoft.Quantum.QSharp.Core": {
+              "target": "Package",
+              "version": "[0.23.195983, )"
+            },
+            "Microsoft.Quantum.Runtime.Core": {
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.23.195983, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\Exponentiation\\Exponentiation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\Exponentiation\\Exponentiation.csproj",
+        "projectName": "Exponentiation",
+        "projectPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\Exponentiation\\Exponentiation.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\Exponentiation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ExponentiationStep\\ExponentiationStep.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ExponentiationStep\\ExponentiationStep.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Quantum.CSharpGeneration": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.EntryPointDriver": {
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Numerics": {
+              "target": "Package",
+              "version": "[0.21.2112180703, )"
+            },
+            "Microsoft.Quantum.QSharp.Core": {
+              "target": "Package",
+              "version": "[0.23.195983, )"
+            },
+            "Microsoft.Quantum.Runtime.Core": {
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.23.195983, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularMult\\ModularMult.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularMult\\ModularMult.csproj",
+        "projectName": "ModularMult",
+        "projectPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularMult\\ModularMult.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularMult\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Quantum.CSharpGeneration": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.EntryPointDriver": {
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Numerics": {
+              "target": "Package",
+              "version": "[0.21.2112180703, )"
+            },
+            "Microsoft.Quantum.QSharp.Core": {
+              "target": "Package",
+              "version": "[0.23.195983, )"
+            },
+            "Microsoft.Quantum.Runtime.Core": {
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.23.195983, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularSquare\\ModularSquare.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularSquare\\ModularSquare.csproj",
+        "projectName": "ModularSquare",
+        "projectPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularSquare\\ModularSquare.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive - University of Bath\\Anu3\\QuantumDissertationCode\\MyCode\\ModularSquare\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Quantum.CSharpGeneration": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.EntryPointDriver": {
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Numerics": {
+              "target": "Package",
+              "version": "[0.21.2112180703, )"
+            },
+            "Microsoft.Quantum.QSharp.Core": {
+              "target": "Package",
+              "version": "[0.23.195983, )"
+            },
+            "Microsoft.Quantum.Runtime.Core": {
+              "target": "Package",
+              "version": "[0.23.195983, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.23.195983, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
